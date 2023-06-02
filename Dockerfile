@@ -67,7 +67,7 @@ FROM eclipse-temurin:17.0.7_7-jre-alpine as publish
 # Build ARGS
 ARG UID=1000
 ARG GID=1000
-ARG OSM_FILE=./openrouteservice/src/main/files/heidelberg.osm.gz
+ARG OSM_FILE=./openrouteservice/src/main/files/israel-and-palestine-latest.osm.pbf
 ARG BASE_FOLDER=/home/ors
 
 # Runtime ENVs for tomcat
